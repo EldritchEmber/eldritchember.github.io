@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add more you</title>
+    <link href="/basic.css" rel="stylesheet" />
+</head>
+<body>
+    <div w3-include-html="/nav.html"></div>
+    <script type="text/javascript" src="/nav.js"></script>
+    <script>
+        includeHTML();
+    </script>
+    <h1>Become more multi!</h1>
+    <h3>Roll the dice to see what you get</h3>
+    <div style="display:block; width:100%;">
+        <div style="width:50%; float: left; display: inline-block;">
+            <form method="GET" id="multi_form"></form>
+            <table border="1">
+                <tr>
+                    <th>Bodypart</th>
+                    <th># you have</th>
+                </tr>
+                <tr>
+                    <td>Bodies</td>
+                    <td><input type="number" id="bodycount" name="bodycount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+                <tr>
+                    <td>Upper Torsos</td>
+                    <td><input type="number" id="torsocount" name="torsocount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+                <tr>
+                    <td>Heads per Torso</td>
+                    <td><input type="number" id="headcount" name="headcount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+                <tr>
+                    <td>Mouths per head</td>
+                    <td><input type="number" id="mouthcount" name="mouthcount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+                <tr>
+                    <td>Pairs of Eyes per Head</td>
+                    <td><input type="number" id="eyecount" name="eyecount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+                <tr>
+                    <td>Pairs of arms per Torso</td>
+                    <td><input type="number" id="armcount" name="armcount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+                <tr>
+                    <td>Pairs of wings per Torso</td>
+                    <td><input type="number" id="wingcount" name="wingcount" min="0" value="0" form="multi_form" /></td>
+                </tr>
+            </table>
+        </div>
+        <div style="width:50%; float: left; display: inline-block;">
+
+        </div>
+    </div>
+</body>
+</html>
