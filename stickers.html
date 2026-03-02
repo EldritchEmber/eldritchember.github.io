@@ -15,6 +15,18 @@
             }
         }
     </script>
+    <style>
+        input[type=checkbox] {
+            margin: 4px 0 0;
+            line-height: normal;
+            width: 30px;
+            height: 30px;
+        }
+        input[type=label] {
+            margin: 4px 0 0;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
     <div w3-include-html="/nav.html"></div>
@@ -22,9 +34,9 @@
     <script>
         includeHTML();
     </script>
+    <h6>All stickers drawn by <a href="https://www.furaffinity.net/user/spookyfoxinc/">Salem</a></h6>
     <input type="checkbox" id="discord_size" name="scales" checked />
-    <label for="discord_size">Discord Size</label>
-     <h6>All stickers drawn by <a href="https://www.furaffinity.net/user/spookyfoxinc/">Salem</a></h6>
+    <label for="discord_size" style="font-size:30px">Discord Sticker Size</label>
     <div></div>
     <img src="stickers/smug.png" width="160" height="160" onclick="copyPath(this)" />
     <img src="stickers/sweat_smile.png" width="160" height="160" onclick="copyPath(this)" />
