@@ -8,10 +8,10 @@
             var name = img.src
             var isChecked = document.getElementById("discord_size").checked;
             if (isChecked){
-                
-                alert(name);
+                name = name.replace("stickers", "stickers/small")
+                navigator.clipboard.writeText(name);
             } else {
-                alert(name);
+                navigator.clipboard.writeText(name);
             }
         }
     </script>
